@@ -74,7 +74,7 @@ if ip:
     #shodan API
     shodan_result = ''
     print("[+] Getting info from Shodan for IP {}".format(ip))
-    api = shodan.Shodan("Gn5qdR5v5PQaA1VrkCAkrZbforIxffbk")
+    api = shodan.Shodan("")
     try:
         results = api.search(ip)
         shodan_result +=("[+] Results found: {}".format(results['total']))
