@@ -22,7 +22,7 @@ Before running the script, ensure that you have the following dependencies insta
 
 OR
 
-Just run `pip install -r requirements.txt`
+Just run `pip install -r Requirements.txt`
 
 To use the Shodan search feature, you'll need a valid Shodan API key. You can sign up for an account and obtain an API key from the [Shodan website](https://shodan.io).
 
