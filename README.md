@@ -19,6 +19,8 @@ Before running the script, ensure that you have the following dependencies insta
 - `dns.resolver` library (part of `dnspython`): `pip install dnspython`
 - `shodan` library: `pip install shodan`
 - `requests` library: `pip install requests`
+OR
+Just run "pip install -r requirements.txt"
 
 To use the Shodan search feature, you'll need a valid Shodan API key. You can sign up for an account and obtain an API key from the [Shodan website](https://shodan.io).
 
